@@ -146,6 +146,28 @@ body {
   border-radius: 100%;
 }
 
+.user {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.user__photo {
+  width: 250px;
+  border-radius: 100%;
+}
+
+.user__name {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+
+/* удалить, когда появятся идеи что добавить в info */
+.info {
+  height: 400px;
+}
+
 .footer {
   padding: 10px 0;
   background: var(--main-color-1);
