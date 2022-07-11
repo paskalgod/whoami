@@ -1,0 +1,176 @@
+
+:root {
+    --body-bg-color: #f5f5f5;
+    --main-color-1: #333DE1;
+    --main-font: 'Nunito', sans-serif;
+    --border-radius-large: 40px;
+    --border-radius-main: 20px;
+    --main-text-size: 16px;
+    --border-color: #c6c6c6;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--body-bg-color) !important;
+}
+
+/* временное решение, убрать когда будет лого в соответсвии с размерами ниже */
+.header__logo-wrapper, .footer__logo-wrapper {
+    width: 50px;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+/* ----------- */
+
+.form-signin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    border-radius: 0;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: 10px;
+    border-radius: 0;
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+
+.btn {
+    font-size: 16px !important;
+}
+
+.btn_reversed {
+    background: #fff !important;
+    color: var(--main-color-1);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background: var(--main-color-1);
+    border-bottom-right-radius: var(--border-radius-large);
+    border-bottom-left-radius: var(--border-radius-large);
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.title {
+    font-size: 32px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom {
+    margin-top: 56px;
+}
+
+.header__title {
+    font-family: var(--main-font);
+    text-align: center;
+    color: #fff;
+    margin: 0 0 32px;
+    font-size: 56px;
+}
+
+.header__subtitle {
+    color: #fff;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+.lobbies {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: var(--border-radius-main);
+}
+
+.lobbies__items {
+    padding: 0;
+    list-style-type: none;
+}
+
+.lobbies__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.lobbies__item-name {
+    display: block;
+    text-decoration: none;
+    color: var(--main-color-1);
+}
+
+.lobbies__item-name {
+    margin-top: 8px;
+    text-align: center;
+    font-size: var(--main-text-size);
+}
+
+.lobbies__item-photo {
+    width: 70px;
+    border-radius: 100%;
+}
+
+.user {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.user__photo {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.user__name {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 32px;
+}
+
+/* удалить, когда появятся идеи что добавить в info */
+.info {
+    height: 400px;
+}
+
+.footer {
+    padding: 10px 0;
+    background: var(--main-color-1);
+    border-top-left-radius: var(--border-radius-large);
+    border-top-right-radius: var(--border-radius-large);
+}
