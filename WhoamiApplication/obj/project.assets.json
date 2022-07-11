@@ -8392,11 +8392,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniil\\source\\repos\\whoami\\WhoamiApplication\\WhoamiApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Daniil\\source\\repos\\paskalgod\\whoami\\WhoamiApplication\\WhoamiApplication.csproj",
       "projectName": "WhoamiApplication",
-      "projectPath": "C:\\Users\\Daniil\\source\\repos\\whoami\\WhoamiApplication\\WhoamiApplication.csproj",
+      "projectPath": "C:\\Users\\Daniil\\source\\repos\\paskalgod\\whoami\\WhoamiApplication\\WhoamiApplication.csproj",
       "packagesPath": "C:\\Users\\Daniil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniil\\source\\repos\\whoami\\WhoamiApplication\\obj\\",
+      "outputPath": "C:\\Users\\Daniil\\source\\repos\\paskalgod\\whoami\\WhoamiApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
